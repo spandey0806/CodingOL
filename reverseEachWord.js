@@ -2,15 +2,15 @@
 
 // Using Map function
 
-// function reverseWord (sentence){
-//        const words = sentence.split(' ');
-//        const reversedWord = words.map((element)=>{
-//         return element.split('').reverse().join('');
-//        })
-//        const reversedSentence = reversedWord.join(' ');
-//        return reversedSentence;
+function reverseWord (sentence){
+       const words = sentence.split(' ');
+       const reversedWord = words.map((element)=>{
+        return element.split('').reverse().join('');
+       })
+       const reversedSentence = reversedWord.join(' ');
+       return reversedSentence;
       
-// }
+}
 
 // const sentence = "I am selected in Convegenious"
 // const ans =reverseWord(sentence);
